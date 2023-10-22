@@ -1,39 +1,30 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Contact.hpp                                        :+:      :+:    :+:   */
+/*   Weapon.hpp                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: yodahani <yodahani@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/17 14:00:52 by yodahani          #+#    #+#             */
-/*   Updated: 2023/10/22 15:01:54 by yodahani         ###   ########.fr       */
+/*   Created: 2023/10/19 22:49:29 by yodahani          #+#    #+#             */
+/*   Updated: 2023/10/20 16:09:31 by yodahani         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef __CONTACT_H__
-#define __CONTACT_H__
+#ifndef _WEAPON_HPP
+#define _WEAPON_HPP
 #include <iostream>
-#include <iomanip>
 
-class Contact
+class Weapon
 {
 private:
-    void    _add_field(const char *msg, std::string& str,  bool c = 0);
-    void    _print_mem(std::string str);
+    std::string  type;  
 
 public:
-    std::string  fname;
-    std::string  lname;
-    std::string  nickname;
-    std::string  phonenum;
-    std::string  darksecret;
-
-    Contact();
-    ~Contact();
-    
-    void    printInfos();
-    void    addUpdateContact();
-    void    printContact(int index);
+    Weapon();
+    Weapon(std::string type);
+    const  std::string& getType(void);
+    void          setType(std::string type);
+    ~Weapon();
 };
 
 #endif
