@@ -6,7 +6,7 @@
 /*   By: yodahani <yodahani@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/17 13:54:32 by yodahani          #+#    #+#             */
-/*   Updated: 2023/10/22 21:07:00 by yodahani         ###   ########.fr       */
+/*   Updated: 2023/10/23 22:51:27 by yodahani         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,6 +73,7 @@ void    Contact::printContact(int index)
     _print_mem(nickname);
     std::cout << std::endl;
 }
+
 void    Contact::printInfos()
 {
     std::cout << "First Name: " << fname << std::endl;

@@ -6,7 +6,7 @@
 /*   By: yodahani <yodahani@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/17 14:00:52 by yodahani          #+#    #+#             */
-/*   Updated: 2023/10/23 22:46:56 by yodahani         ###   ########.fr       */
+/*   Updated: 2023/10/23 22:53:38 by yodahani         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ private:
     std::string  nickname;
     std::string  phonenum;
     std::string  darksecret;
-
+public:
     Contact();
     ~Contact();
     
