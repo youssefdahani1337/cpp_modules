@@ -6,7 +6,7 @@
 /*   By: yodahani <yodahani@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/19 13:20:38 by yodahani          #+#    #+#             */
-/*   Updated: 2023/10/22 18:48:39 by yodahani         ###   ########.fr       */
+/*   Updated: 2023/10/23 14:28:44 by yodahani         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,8 +24,7 @@ public:
     Zombie(std::string name);
     ~Zombie();
 
-    void    announce( void);
+    void    announce( void );
 };
-
 
 #endif

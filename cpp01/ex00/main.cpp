@@ -6,7 +6,7 @@
 /*   By: yodahani <yodahani@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/19 15:40:51 by yodahani          #+#    #+#             */
-/*   Updated: 2023/10/22 18:53:14 by yodahani         ###   ########.fr       */
+/*   Updated: 2023/10/23 14:26:27 by yodahani         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ int main(void)
 
     Zombie* zombie_2 = newZombie("sliver");
     zombie_2->announce();
-    
+
     randomChump("bronze");    
 
     delete zombie_2;

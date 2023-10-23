@@ -6,7 +6,7 @@
 /*   By: yodahani <yodahani@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/19 23:05:26 by yodahani          #+#    #+#             */
-/*   Updated: 2023/10/20 13:35:18 by yodahani         ###   ########.fr       */
+/*   Updated: 2023/10/23 19:30:53 by yodahani         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,7 @@ class HumanB
 public:
     Weapon *weapon;
     std::string name;
+
 public:
     HumanB();
     HumanB(std::string name);

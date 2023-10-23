@@ -6,7 +6,7 @@
 /*   By: yodahani <yodahani@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/19 16:15:15 by yodahani          #+#    #+#             */
-/*   Updated: 2023/10/22 18:55:09 by yodahani         ###   ########.fr       */
+/*   Updated: 2023/10/23 14:32:07 by yodahani         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,12 +21,13 @@ class Zombie
 private:
     std::string name;
 public:
-   Zombie();
+    Zombie();
     Zombie(std::string name);
     ~Zombie();
+
+    void    setName(std::string name);
     void    announce(void);
     Zombie* zombieHorde( int N, std::string name );
 };
-Zombie* zombieHorde( int N, std::string name );
 
 #endif

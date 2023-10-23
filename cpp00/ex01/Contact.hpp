@@ -6,7 +6,7 @@
 /*   By: yodahani <yodahani@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/17 14:00:52 by yodahani          #+#    #+#             */
-/*   Updated: 2023/10/22 15:01:54 by yodahani         ###   ########.fr       */
+/*   Updated: 2023/10/23 22:46:56 by yodahani         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ private:
     void    _add_field(const char *msg, std::string& str,  bool c = 0);
     void    _print_mem(std::string str);
 
-public:
+private:
     std::string  fname;
     std::string  lname;
     std::string  nickname;

@@ -6,7 +6,7 @@
 /*   By: yodahani <yodahani@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/20 13:38:39 by yodahani          #+#    #+#             */
-/*   Updated: 2023/10/20 17:20:01 by yodahani         ###   ########.fr       */
+/*   Updated: 2023/10/23 22:39:27 by yodahani         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,8 +16,6 @@ void    ft_replace(std::string filename, std::string s1, std::string s2);
 
 int main(int ac, char **av)
 {
-
-
     if (ac != 4)
     {
         std::cout << "Please enter 3 args\n";
