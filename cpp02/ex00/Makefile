@@ -1,9 +1,9 @@
 CC=c++
 CPPFLAGS= -Wall -Wextra -Werror -std=c++98
 RM= rm -rf
-NAME= 
-SRCS= 
-HEADERS = 
+NAME= Fixed
+SRCS= Fixed.cpp  main.cpp
+HEADERS = Fixed.hpp
 OBJS= ${SRCS:.cpp=.o}
 
 all:${NAME}
