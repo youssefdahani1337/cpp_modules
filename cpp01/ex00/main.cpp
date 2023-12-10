@@ -6,7 +6,7 @@
 /*   By: yodahani <yodahani@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/19 15:40:51 by yodahani          #+#    #+#             */
-/*   Updated: 2023/10/30 12:36:03 by yodahani         ###   ########.fr       */
+/*   Updated: 2023/10/29 22:00:35 by yodahani         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,14 +18,14 @@ void    randomChump( std::string name );
 
 int main(void)
 {
-    Zombie zombie_1("aaaa");
+    Zombie zombie_1("Gold");
     zombie_1.announce();
-    Zombie* zombie_2 = newZombie("bbbb");
-    if (!zombie_2)
+    Zombie* zombie_2 = newZombie(s);
+    if (zombie_2 == nullptr)
         return (1);
     zombie_2->announce();
 
-    randomChump("ccc");
+    randomChump("NULL");
 
     delete zombie_2;
     // system("leaks Zombie");

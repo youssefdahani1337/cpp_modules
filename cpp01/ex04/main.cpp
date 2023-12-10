@@ -6,7 +6,7 @@
 /*   By: yodahani <yodahani@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/20 13:38:39 by yodahani          #+#    #+#             */
-/*   Updated: 2023/10/30 13:14:27 by yodahani         ###   ########.fr       */
+/*   Updated: 2023/10/30 15:39:01 by yodahani         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ int main(int ac, char **av)
     std::string s1 = av[2];
     std::string s2 = av[3];
     
-    if (fileName.empty())
+    if (fileName.empty() || s1.empty())
     {
         std::cout << "One of the args is empty !!\n";
         return (1);

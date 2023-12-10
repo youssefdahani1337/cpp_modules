@@ -6,7 +6,7 @@
 /*   By: yodahani <yodahani@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/17 13:54:32 by yodahani          #+#    #+#             */
-/*   Updated: 2023/10/23 22:51:27 by yodahani         ###   ########.fr       */
+/*   Updated: 2023/10/24 11:03:28 by yodahani         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,6 @@ void    Contact::_print_mem(std::string str)
 
 bool    check_num(std::string str)
 {
-    
     if (str.front() != '+' && !isdigit(str.front()))
         return (false);
     for (size_t i = 1; i < str.length(); i++)
